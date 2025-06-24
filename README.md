@@ -56,7 +56,14 @@ SELECT 'Bank Loans', COUNT(*) FROM banking_data WHERE Bank_Loans > 0
 ORDER BY USERS DESC;
 ```
 
-## DATA VISUALIZATION
+## PRODUCT ADOPTION REVIEW
+![Product Adoption Review](https://github.com/Temperance-Godwin/PRODUCT-USAGE-ANALYSIS/blob/main/Data%20Modelling.png)
+
+
+1. Client Growth & Product Penetration: The organization has a client base of 3,000, with a Year-to-Date growth of 194 clients, suggesting slow but steady acquisition. With 8,281 products across 3,000 clients, the average product usage is approximately 3 products per client, indicating moderate cross-sell effectiveness.
+2. Banking Relationship vs Product Value: Private Banking clients contribute the highest product value at $1.21bn, making up nearly half of the total product value ($2.7bn). Retail clients contribute significantly less ($0.59bn), while Institutional and Commercial segments trail closely behind.
+3. Loyalty Tiers and Product Usage: The Jade loyalty tier is the highest-performing in terms of product usage, contributing $52M, more than triple that of Platinum clients ($16M). There is a clear positive correlation between loyalty tier level and product engagement/value.
+4. Monthly Product Usage Trends: Product usage shows a cyclical pattern, with noticeable dips in March, June, and November, and strong peaks in February, May, August, and December. The second half of the year (July to December) demonstrates more consistent usage, implying stronger engagement or campaign effects in H2.
 
 ## INSIGHTS
 
