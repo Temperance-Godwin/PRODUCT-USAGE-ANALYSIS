@@ -24,7 +24,7 @@ The dataset comprises four Excel sheets:
 - Gender, Relationship, Investment Advisors: Lookup tables for relational joins
 
 ## DATA MODELLING
-![Data Modelling](Data
+![Data Modelling](https://github.com/Temperance-Godwin/PRODUCT-USAGE-ANALYSIS/blob/main/Data%20Modelling.png)
 
 ## ANSWERING BUSINESS QUESTIONS
 To extract high-impact insights, I applied advanced SQL techniques, including:
