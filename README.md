@@ -59,7 +59,7 @@ SELECT
     ROUND(SUM(Amount_of_Credit_Cards), 2) AS Total_Credit_Cards,
     ROUND(SUM(Credit_Card_Balance), 2) AS Total_Card_Balance,
     ROUND(SUM(Bank_Loans), 2) AS Total_Loans,
-	ROUND(SUM(Saving_Accounts),2) AS Total_Savings,
+    ROUND(SUM(Saving_Accounts),2) AS Total_Savings,
     ROUND(SUM(Business_Lending), 2) AS Total_Business_Lending
 FROM Income_Classified
 GROUP BY Income_Group;
