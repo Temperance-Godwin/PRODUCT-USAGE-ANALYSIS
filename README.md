@@ -57,7 +57,7 @@ ORDER BY USERS DESC;
 ```
 
 ## PRODUCT ADOPTION REVIEW
-![Product Adoption Review](https://github.com/Temperance-Godwin/PRODUCT-USAGE-ANALYSIS/blob/main/Data%20Modelling.png)
+![Product Adoption Review](https://github.com/Temperance-Godwin/PRODUCT-USAGE-ANALYSIS/blob/main/Production%20Adoption%20Review.png)
 
 
 1. Client Growth & Product Penetration: The organization has a client base of 3,000, with a Year-to-Date growth of 194 clients, suggesting slow but steady acquisition. With 8,281 products across 3,000 clients, the average product usage is approximately 3 products per client, indicating moderate cross-sell effectiveness.
