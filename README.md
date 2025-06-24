@@ -65,7 +65,8 @@ ORDER BY USERS DESC;
 3. **Loyalty Tiers and Product Usage:** The Jade loyalty tier is the highest-performing in terms of product usage, contributing **$52M,** more than triple that of Platinum clients **($16M).** There is a clear positive correlation between loyalty tier level and product engagement/value.
 4. **Monthly Product Usage Trends:** Product usage shows a cyclical pattern, with noticeable dips in March, June, and November, and strong peaks in **February, May, August, and December.** The second half of the year (July to December) demonstrates more consistent usage, implying stronger engagement or campaign effects in H2.
 
-## INSIGHTS
+## HIGH-VALUE CLIENTS & RISK SEGMENT
+[High-Value Clients & Risk Segments](https://github.com/Temperance-Godwin/PRODUCT-USAGE-ANALYSIS/blob/main/High-Value%20Clients%20%24%20Risk%20Segments.png)
 
 
 ## RECOMMENDATIONS
