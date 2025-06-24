@@ -87,7 +87,7 @@ Introduce a low-risk growth portfolio with bundled savings, investment, and advi
 5. Leverage Property Ownership to Trigger Cross-Selling
 Use property ownership as a trigger for upselling financial products such as home equity loans, wealth planning, or premium insurance. This action enables contextual cross-selling, increases product per client ratio, and deepens financial relationships through wealth-linked offerings.
 
-Strategic Next Step for the Organization
+## STRATEGIC NEXT STEP FOR THE ORGANIZATION
 The organization should establish a Product Usage Optimization Program (PUOP). A cross-functional initiative focused on driving deeper product adoption, increasing average products per client, and expanding value across client segments.
 
 This program should implement:
