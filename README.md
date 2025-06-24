@@ -23,16 +23,7 @@ The objective of this analysis is to:
 ![Data Modelling](https://github.com/Temperance-Godwin/PRODUCT-USAGE-ANALYSIS/blob/main/Data%20Modelling.png)
 
 ## ANSWERING BUSINESS QUESTIONS
-1. Top 10 High Value Clients.
-```sql
-SELECT top 10
-    Name,
-   ROUND ((SUM(Business_Lending) + SUM(Foreign_Currency_Account)),2) AS Total_Value
-FROM banking_data
-GROUP BY Name
-ORDER BY Total_Value DESC;
-```
-2. Which products are mostly used by customers?
+1. Product usage across customers
 ```sql
 SELECT 
     'Credit Cards' AS Product,
@@ -50,6 +41,28 @@ SELECT 'Business Lending', COUNT(*) FROM banking_data WHERE Business_Lending > 0
 UNION ALL
 SELECT 'Bank Loans', COUNT(*) FROM banking_data WHERE Bank_Loans > 0
 ORDER BY USERS DESC;
+```
+
+2. Product usage by income group
+```sql
+WITH Income_Classified AS (
+    SELECT *,
+        CASE 
+            WHEN Estimated_Income < 50000 THEN 'Low Income'
+            WHEN Estimated_Income BETWEEN 50000 AND 150000 THEN 'Middle Income'
+            ELSE 'High Income'
+        END AS Income_Group
+    FROM banking_data
+)
+SELECT 
+    Income_Group,
+    ROUND(SUM(Amount_of_Credit_Cards), 2) AS Total_Credit_Cards,
+    ROUND(SUM(Credit_Card_Balance), 2) AS Total_Card_Balance,
+    ROUND(SUM(Bank_Loans), 2) AS Total_Loans,
+	ROUND(SUM(Saving_Accounts),2) AS Total_Savings,
+    ROUND(SUM(Business_Lending), 2) AS Total_Business_Lending
+FROM Income_Classified
+GROUP BY Income_Group;
 ```
 
 ## PRODUCT ADOPTION OVERVIEW
