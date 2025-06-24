@@ -138,5 +138,6 @@ This initiative should be led at the executive level with KPIs around:
 - Client-level product penetration
 - Cross-sell conversion rates
 
-
+![](ThankYou.jpg)
+Thank you for following through!
 
