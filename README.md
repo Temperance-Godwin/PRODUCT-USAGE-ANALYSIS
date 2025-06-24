@@ -27,7 +27,7 @@ The dataset comprises four Excel sheets:
 ![Data Modelling](https://github.com/Temperance-Godwin/PRODUCT-USAGE-ANALYSIS/blob/main/Data%20Modelling.png)
 
 ## ANSWERING BUSINESS QUESTIONS
-1. Top 10 High Value Clients
+1. Top 10 High Value Clients.
 ```sql
 SELECT top 10
     Name,
@@ -36,54 +36,39 @@ FROM banking_data
 GROUP BY Name
 ORDER BY Total_Value DESC;
 ```
+2. Which products are mostly used by customers?
+```sql
+SELECT 
+    'Credit Cards' AS Product,
+    COUNT(*) AS Users
+FROM banking_data
+WHERE Amount_of_Credit_Cards > 0
+UNION ALL
+SELECT 'Savings Accounts', COUNT(*) FROM banking_data WHERE Saving_Accounts > 0
+UNION ALL
+SELECT 'Checking Accounts', COUNT(*) FROM banking_data WHERE Checking_Accounts > 0
+UNION ALL
+SELECT 'Foreign Currency Account', COUNT(*) FROM banking_data WHERE Foreign_Currency_Account > 0
+UNION ALL
+SELECT 'Business Lending', COUNT(*) FROM banking_data WHERE Business_Lending > 0
+UNION ALL
+SELECT 'Bank Loans', COUNT(*) FROM banking_data WHERE Bank_Loans > 0
+ORDER BY USERS DESC;
+```
 
-Data Visualization
-Two dashboards were designed in Power BI:
+## DATA VISUALIZATION
 
-1. Product Penetration Overview
-KPIs: % clients using each product, average number of products per client
+## INSIGHTS
 
-Slicers: Age, Gender, Relationship Type, Occupation
 
-Charts: Heatmap, Pie (loyalty), Bar (product use by segment)
+## RECOMMENDATIONS
 
-2. High-Value & Risk Insight Dashboard
-KPIs: Total product value, avg. product usage by risk class
 
-Slicers: Loyalty Tier, Risk Weighting, Investment Advisor
-
-Charts: Treemap (product value by occupation), Scatter (risk vs value), Donut (top 10 clients)
-
-Insights
-Over 60% of clients use only one product, indicating significant cross-sell opportunity.
-
-Retail clients use products more diversely than institutional clients.
-
-Business Lending is highly concentrated in clients aged 30–50, mostly male.
-
-Some clients with high risk weightings are also among the top value contributors, highlighting a need for closer monitoring.
-
-Foreign currency accounts are underutilized by female clients, suggesting a possible gap in financial advisory.
-
-Recommendations
-Launch targeted cross-sell campaigns for clients with only one product.
-
-Create risk-balanced tiered offers for high-value, high-risk clients.
-
-Equip relationship managers with usage dashboards for real-time advisory.
-
-Initiate a financial inclusion drive among underrepresented groups (e.g., female forex users).
-
-Empower investment advisors with product-usage alerts to boost proactive outreach.
-
-Which Way Forward for the Company
+## STRATEGIC NEXT STEP
 This analysis should inform a data-driven client engagement strategy, where every advisor, manager, and executive has visibility into product behavior. By embedding product usage insights into core decision-making, the company can:
-
-Increase revenue through better client-product matching
-
-Reduce churn by enhancing relevance and experience
-
-Balance risk exposure while maintaining value focus
+1. Increase revenue through better client-product matching
+2. Reduce churn by enhancing relevance and experience
+3. Balance risk exposure while maintaining value focus
 
 Going forward, I recommend the implementation of a Product Intelligence Hub, combining BI dashboards, predictive analytics, and client segmentation tools—paving the way for smarter banking and strategic growth.
 
