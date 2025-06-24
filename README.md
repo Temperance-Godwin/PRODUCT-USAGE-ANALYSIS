@@ -42,6 +42,17 @@ UNION ALL
 SELECT 'Bank Loans', COUNT(*) FROM banking_data WHERE Bank_Loans > 0
 ORDER BY USERS DESC;
 ```
+### Output
+
+| Employee	 |Total_Customer |
+| :--------      |-----------: 	
+| Credit Cards   | 3000
+| Foreign Currency Account | 3000
+| Business Lending |2986
+| Bank Loans | 2973
+|Checking Accounts |2966
+|Savings Accounts	 |2966
+
 
 Credit Cards and Foreign Currency Accounts are used by 100% of clients, while Checking and Savings Accounts are the least used, with 2,966 users out of 3,000.
 
