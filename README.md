@@ -78,14 +78,12 @@ GROUP BY Income_Group;
 ```
 ### Output
 
-| Employee	 |Total_Customer |
-| :--------      |-----------: 	
-| Credit Cards   | 3000
-| Foreign Currency Account | 3000
-| Business Lending |2986
-| Bank Loans | 2973
-|Checking Accounts |2966
-|Savings Accounts	 |2966
+| Income_Group	 |Total_Customer | Total_Card_Balance | Total_Loans |Total_Savings | Total_Business_Lending
+| :--------      |-----------: 	 |-----------: 	      | -----------:| -----------: | -----------:    	 
+| Low Income   | 433 |550443.12 | 103134916.3 | 38304918.46 | 140360106.32
+| Middle Income | 1913 |3589307.88 |650143084.5 | 256357246.81 |971682322.89
+| High Income |2045 | 5388869.84 |1020880467.21 | 404062895.29 |1488236997.88
+
 Product usage increases significantly with income level. High-income clients show the highest values across credit cards, loans, savings, and business lending. Middle-income clients follow closely, while low-income clients contribute marginally across all products.
 
 ## PRODUCT ADOPTION OVERVIEW
