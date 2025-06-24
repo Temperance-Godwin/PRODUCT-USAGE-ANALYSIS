@@ -18,12 +18,13 @@ The objective of this analysis is to:
 3. Assess the risk-product relationship to guide risk-aware growth
 4. Provide actionable recommendations for sales, marketing, and strategic planning
 
-Data Source
+## DATA SOURCE
 The dataset comprises four Excel sheets:
+- banking_data: Contains client-level data including demographics, risk weighting, and usage across major product types (investment amount, business lending, foreign currency account)
+- Gender, Relationship, Investment Advisors: Lookup tables for relational joins
 
-banking_data: Contains client-level data including demographics, risk weighting, and usage across major product types (investment amount, business lending, foreign currency account)
-
-Gender, Relationship, Investment Advisors: Lookup tables for relational joins
+## DATA MODELLING
+![Data Modelling](Data
 
 ## ANSWERING BUSINESS QUESTIONS
 To extract high-impact insights, I applied advanced SQL techniques, including:
