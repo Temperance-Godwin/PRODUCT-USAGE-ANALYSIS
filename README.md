@@ -44,7 +44,7 @@ ORDER BY USERS DESC;
 ```
 ### Output
 
-| Employee	 |Total_Customer |
+| Products | Users |
 | :--------      |-----------: 	
 | Credit Cards   | 3000
 | Foreign Currency Account | 3000
@@ -52,7 +52,6 @@ ORDER BY USERS DESC;
 | Bank Loans | 2973
 |Checking Accounts |2966
 |Savings Accounts	 |2966
-
 
 Credit Cards and Foreign Currency Accounts are used by 100% of clients, while Checking and Savings Accounts are the least used, with 2,966 users out of 3,000.
 
@@ -77,6 +76,16 @@ SELECT
 FROM Income_Classified
 GROUP BY Income_Group;
 ```
+### Output
+
+| Employee	 |Total_Customer |
+| :--------      |-----------: 	
+| Credit Cards   | 3000
+| Foreign Currency Account | 3000
+| Business Lending |2986
+| Bank Loans | 2973
+|Checking Accounts |2966
+|Savings Accounts	 |2966
 Product usage increases significantly with income level. High-income clients show the highest values across credit cards, loans, savings, and business lending. Middle-income clients follow closely, while low-income clients contribute marginally across all products.
 
 ## PRODUCT ADOPTION OVERVIEW
