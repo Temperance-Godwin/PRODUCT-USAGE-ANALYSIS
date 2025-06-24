@@ -66,7 +66,12 @@ ORDER BY USERS DESC;
 4. **Monthly Product Usage Trends:** Product usage shows a cyclical pattern, with noticeable dips in March, June, and November, and strong peaks in **February, May, August, and December.** The second half of the year (July to December) demonstrates more consistent usage, implying stronger engagement or campaign effects in H2.
 
 ## HIGH-VALUE CLIENTS & RISK SEGMENT
-[High-Value Clients & Risk Segments](https://github.com/Temperance-Godwin/PRODUCT-USAGE-ANALYSIS/blob/main/High-Value%20Clients%20%24%20Risk%20Segments.png)
+![High-Value Clients & Risk Segments](https://github.com/Temperance-Godwin/PRODUCT-USAGE-ANALYSIS/blob/main/High-Value%20Clients%20%24%20Risk%20Segments.png)
+
+1. **Client Risk Distribution:** A large portion of clients fall into Low **(41%)** and Very Low **(28%)** risk categories, indicating a generally stable and low-risk portfolio. Only **5%** are classified as Very High risk, suggesting limited exposure to credit or default risks.
+2. **High-Value Client Insights:** The top 5 clients each hold between **$4.0M–$5.0M** in product value, representing a concentrated pool of high-net-worth individuals. The Jade tier continues to show dominance, not just in product value but also in property ownership, holding **9 out of 15 properties.**
+3. Occupation-Based Lending Value: Structural Analysis Engineers contribute the most to business lending at **$31.7M,** followed by Automation Specialists and Database Administrators. The presence of highly skilled technical professions suggests a client base with stable income and long-term lending potential.
+4. Client Asset Ownership: Property ownership is highest among loyal clients in the Jade tier, reinforcing their profile as high-value, asset-rich customers. Silver, Gold, and Platinum clients show lower property ownership, which may reflect different wealth levels or engagement stages.
 
 
 ## RECOMMENDATIONS
