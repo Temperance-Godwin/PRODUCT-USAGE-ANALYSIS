@@ -20,32 +20,22 @@ The objective of this analysis is to:
 
 ## DATA SOURCE
 The dataset comprises four Excel sheets:
-- banking_data: Contains client-level data including demographics, risk weighting, and usage across major product types (investment amount, business lending, foreign currency account)
+- banking_data: Contains client-level data including demographics, risk weighting, and usage across major product types (business lending, foreign currency account)
 - Gender, Relationship, Investment Advisors: Lookup tables for relational joins
 
 ## DATA MODELLING
 ![Data Modelling](https://github.com/Temperance-Godwin/PRODUCT-USAGE-ANALYSIS/blob/main/Data%20Modelling.png)
 
 ## ANSWERING BUSINESS QUESTIONS
-To extract high-impact insights, I applied advanced SQL techniques, including:
-
-Aggregations to measure average product usage per segment
-
-CASE logic to classify user types
-
-JOINs across dimension tables to enrich client data
-
-CTEs and Window Functions to identify top users by risk profile
-
-Sample questions answered:
-
-Which banking relationship segment uses products the most?
-
-Who are the top 10 highest value clients?
-
-What is the correlation between risk weighting and total product value?
-
-How does product usage vary by gender and age group?
+1. Top 10 High Value Clients
+```sql
+SELECT top 10
+    Name,
+   ROUND ((SUM(Business_Lending) + SUM(Foreign_Currency_Account)),2) AS Total_Value
+FROM banking_data
+GROUP BY Name
+ORDER BY Total_Value DESC;
+```
 
 Data Visualization
 Two dashboards were designed in Power BI:
