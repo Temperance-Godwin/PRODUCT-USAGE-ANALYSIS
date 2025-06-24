@@ -1,5 +1,6 @@
 ## INTRODUCTION
 Imagine a banking institution with thousands of clients and millions in assets under management, yet still struggling to understand how its products are truly being used. While product offerings continue to expand, the institution lacks granular insight into who is using what, how frequently, and what drives usage.
+
 As a Product Analyst within the organization, I led a comprehensive Product Usage Analysis to help the bank uncover patterns in client behavior, identify high-value clients, evaluate underutilized services, and guide product targeting across different customer segments.
 
 ## PROBLEM STATEMENT
