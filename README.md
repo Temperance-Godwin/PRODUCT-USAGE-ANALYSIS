@@ -42,6 +42,7 @@ UNION ALL
 SELECT 'Bank Loans', COUNT(*) FROM banking_data WHERE Bank_Loans > 0
 ORDER BY USERS DESC;
 ```
+Credit Cards and Foreign Currency Accounts are used by 100% of clients, while Checking and Savings Accounts are the least used, with 2,966 users out of 3,000.
 
 2. Product usage by income group
 ```sql
@@ -64,6 +65,7 @@ SELECT
 FROM Income_Classified
 GROUP BY Income_Group;
 ```
+Product usage increases significantly with income level. High-income clients show the highest values across credit cards, loans, savings, and business lending. Middle-income clients follow closely, while low-income clients contribute marginally across all products.
 
 ## PRODUCT ADOPTION OVERVIEW
 ![Product Adoption Review](https://github.com/Temperance-Godwin/PRODUCT-USAGE-ANALYSIS/blob/main/Production%20Adoption%20Review.png)
