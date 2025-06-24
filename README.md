@@ -42,6 +42,7 @@ UNION ALL
 SELECT 'Bank Loans', COUNT(*) FROM banking_data WHERE Bank_Loans > 0
 ORDER BY USERS DESC;
 ```
+
 Credit Cards and Foreign Currency Accounts are used by 100% of clients, while Checking and Savings Accounts are the least used, with 2,966 users out of 3,000.
 
 2. Product usage by income group
