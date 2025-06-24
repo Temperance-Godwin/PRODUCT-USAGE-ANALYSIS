@@ -2,7 +2,7 @@
 Imagine a banking institution with thousands of clients and millions in assets under management, yet still struggling to understand how its products are truly being used. While product offerings continue to expand, the institution lacks granular insight into who is using what, how frequently, and what drives usage.
 As a Product Analyst within the organization, I led a comprehensive Product Usage Analysis to help the bank uncover patterns in client behavior, identify high-value clients, evaluate underutilized services, and guide product targeting across different customer segments.
 
-## PROBLEM STATEMENTS
+## PROBLEM STATEMENT
 The bank has minimal visibility into:
 1. The number of products used per client
 2. Demographic or risk-based patterns in product usage
@@ -17,11 +17,6 @@ The objective of this analysis is to:
 2. Identify high-value clients and segments underutilizing key products
 3. Assess the risk-product relationship to guide risk-aware growth
 4. Provide actionable recommendations for sales, marketing, and strategic planning
-
-## DATA SOURCE
-The dataset comprises four Excel sheets:
-- banking_data: Contains client-level data including demographics, risk weighting, and usage across major product types (business lending, foreign currency account)
-- Gender, Relationship, Investment Advisors: Lookup tables for relational joins
 
 ## DATA MODELLING
 ![Data Modelling](https://github.com/Temperance-Godwin/PRODUCT-USAGE-ANALYSIS/blob/main/Data%20Modelling.png)
