@@ -106,20 +106,25 @@ Product usage increases significantly with income level. High-income clients sho
 To interact with dashboard, [Click Here](https://app.powerbi.com/view?r=eyJrIjoiNWU2NzMwNDItMDdiMS00ZTUyLTg2OTUtNmE2ZmQ3NTZlOGZjIiwidCI6Ijg0ZGZiOGY5LWYzMTItNDk1NC05ZTk5LWYzZjcxMTgzZDZmMSJ9)
 
 ## RECOMMENDATION
-1. Double Down on High-Value Loyalty Tiers (Especially Jade)
+1. **Double Down on High-Value Loyalty Tiers (Especially Jade)**
+   
 Prioritize the Jade tier for elite services and tailored experiences. Build a premium offering exclusively for Jade clients (e.g., concierge banking, early access to investment products, loyalty-linked mortgage discounts).
 This impact will boost client retention, increase lifetime value, and turn high-value clients into brand advocates with deeper product engagement.
 
-3. Unlock Product Growth Through Occupation-Based Personalization
+2. **Unlock Product Growth Through Occupation-Based Personalization**
+
 Segment product usage strategies by occupation. Tailor financial solutions to the specific needs of high-value professions (e.g., customized lending plans, bundled investment tools. This will increase product adoption through relevant offerings, expands penetration in high-yield professions, and enables smarter targeting.
 
-3. Expand Adoption During Low Engagement Months
+3. **Expand Adoption During Low Engagement Months**
+
 Product usage dips noticeably in March, June, and November. Design and execute seasonal product usage campaigns focused on these periods. Tactics can include limited-time offers, reward incentives, and targeted education campaigns. This will reduce inactivity during lull periods, improves monthly usage consistency, and increases year-round product engagement.
 
-4. Maximize Monetization of Low-Risk Clients
+4. **Maximize Monetization of Low-Risk Clients**
+   
 Introduce a low-risk growth portfolio with bundled savings, investment, and advisory products tailored to conservative yet valuable clients. This will drive revenue from a stable, low-risk group while encouraging gradual adoption of more complex products.
 
-5. Leverage Property Ownership to Trigger Cross-Selling
+5. **Leverage Property Ownership to Trigger Cross-Selling**
+
 Use property ownership as a trigger for upselling financial products such as home equity loans, wealth planning, or premium insurance. This action enables contextual cross-selling, increases product per client ratio, and deepens financial relationships through wealth-linked offerings.
 
 ## STRATEGIC NEXT STEP FOR THE ORGANIZATION
