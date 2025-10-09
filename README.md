@@ -153,4 +153,4 @@ This initiative should be led at the executive level with KPIs around:
 | viewed_product |	3987
 |added_to_cart |	1599
 |checkout |	1123
-|purchased	1010
+|purchased	| 1010
