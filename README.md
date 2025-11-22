@@ -145,12 +145,8 @@ This initiative should be led at the executive level with KPIs around:
 
 ![Thank you](https://github.com/Temperance-Godwin/Forbes-world-billionaires-2022/assets/156975460/f6563ba6-1ad6-4d34-a3f3-8e7fbdf654df)
 
-## Thank you for following through.
+### Thank you for following through.
 
-
-
-## PRODUCT ADOPTION INSIGHTS
-To view this dashboard, [click here](https://app.powerbi.com/view?r=eyJrIjoiMTNiMWNlYzUtNTAzMi00MzA2LTk1OGMtMDcwOGRmZjJjZWExIiwidCI6Ijg0ZGZiOGY5LWYzMTItNDk1NC05ZTk5LWYzZjcxMTgzZDZmMSJ9)
 
 
 
