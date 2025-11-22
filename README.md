@@ -150,7 +150,7 @@ This initiative should be led at the executive level with KPIs around:
 
 
 ## PRODUCT ADOPTION INSIGHTS
-![product insights](https://github.com/Temperance-Godwin/PRODUCT-USAGE-ANALYSIS/blob/main/Production%20Adoption%20Review.png)
+To view this dashboard, [click here](https://app.powerbi.com/view?r=eyJrIjoiNWU2NzMwNDItMDdiMS00ZTUyLTg2OTUtNmE2ZmQ3NTZlOGZjIiwidCI6Ijg0ZGZiOGY5LWYzMTItNDk1NC05ZTk5LWYzZjcxMTgzZDZmMSJ9)
 
 
 
