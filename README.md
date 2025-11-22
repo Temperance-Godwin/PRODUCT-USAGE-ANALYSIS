@@ -150,8 +150,7 @@ This initiative should be led at the executive level with KPIs around:
 
 
 ## PRODUCT ADOPTION INSIGHTS
-To view this dashboard, [click here](https://app.powerbi.com/view?r=eyJrIjoiNWU2NzMwNDItMDdiMS00ZTUyLTg2OTUtNmE2ZmQ3NTZlOGZjIiwidCI6Ijg0ZGZiOGY5LWYzMTItNDk1NC05ZTk5LWYzZjcxMTgzZDZmMSJ9)
-
+To view this dashboard, [click here](https://app.powerbi.com/view?r=eyJrIjoiMTNiMWNlYzUtNTAzMi00MzA2LTk1OGMtMDcwOGRmZjJjZWExIiwidCI6Ijg0ZGZiOGY5LWYzMTItNDk1NC05ZTk5LWYzZjcxMTgzZDZmMSJ9)
 
 
 
